@@ -33,22 +33,22 @@ def get_positive_integer(prompt):
             print("Invalid input. Please enter a valid integer.")
 
     if __name__ == "__main__":
-    # Calls the main function if this file is run directly
+    # calls the main function if this file is run directly
         main()
 
 
 
 
-# the main ain program
+# the main program
 if __name__ == "__main__":
     print("Euclidean Algorithm: ")
     
-    # Get inputs
+    # get inputs
     num1 = get_positive_integer("Enter the first positive integer: ")
     num2 = get_positive_integer("Enter the second positive integer: ")
     
     
-    # Calculate and display results
+    # calculate and display results
     print(f"Greatest Common Divisor of {num1} and {num2}: {gcd(num1, num2)}")
     print(f"Least Common Multiple of {num1} and {num2}: {lcm(num1, num2)}")
     
